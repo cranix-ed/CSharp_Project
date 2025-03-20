@@ -1,0 +1,13 @@
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\bin\Debug\Project_CSharp.exe.config
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\bin\Debug\Project_CSharp.exe
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\bin\Debug\Project_CSharp.pdb
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\bin\Debug\Guna.UI2.dll
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Form1.resources
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Properties.Resources.resources
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.csproj.CopyComplete
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.exe
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.pdb

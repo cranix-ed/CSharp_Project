@@ -1,0 +1,3 @@
+﻿  cppproject.cpp
+C:\Users\PC\source\repos\cppproject\cppproject\cppproject.cpp(14,34): warning C4552: '/': result of expression not used
+  cppproject.vcxproj -> C:\Users\PC\source\repos\cppproject\x64\Debug\cppproject.exe
