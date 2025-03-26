@@ -20,7 +20,7 @@ Bây giờ chỉnh lại cho cố định 4 hướng `top, left, right, bottom` 
 
 ![image](https://github.com/user-attachments/assets/48850bc8-fb75-443d-bc4e-84f5c5a8cfc5)
 
-Mục đích là để khi tôi thêm form của các bạn vào form chính thì giao diện các bạn làm không bị xê dịch nhiều. Tùy ý muốn cho component đó cố định như thế nào để set vị trí cho hợp lý
+***Mục đích là để khi tôi thêm form của các bạn vào form chính thì giao diện các bạn làm không bị xê dịch nhiều. Tùy ý muốn cho component đó cố định như thế nào để set vị trí cho hợp lý***
 
 Ví dụ muốn datagridview bám sát bên dưới có thể chỉnh thành `left, right, bottom` sẽ được như hình dưới
 
