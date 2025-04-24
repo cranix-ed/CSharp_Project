@@ -5,6 +5,9 @@ using System.Windows.Forms;
 using Project_CSharp.Forms.Anh;
 using Project_CSharp.Forms.Ngoc;
 using Project_CSharp.Forms.Vinh;
+using System.Windows.Forms.DataVisualization.Charting;
+using Project_CSharp.BusinessLogicLayer;
+using Project_CSharp.Forms.Tung;
 
 namespace Project_CSharp
 {
@@ -22,6 +25,7 @@ namespace Project_CSharp
         private int sidebarMinWidth = 45; // Chiều rộng tối thiểu khi thu gọn
         private int sidebarStep = 10; // Bước tăng/giảm
 
+        
         public FormMain()
         {
             InitializeComponent();
@@ -36,6 +40,9 @@ namespace Project_CSharp
                 return cp;
             }
         }
+
+        
+
 
         private void CloseCurrentDropdown()
         {
@@ -270,6 +277,32 @@ namespace Project_CSharp
         private void guna2Button16_Click(object sender, EventArgs e)
         {
             ToggleDropdown(panelDropDownTung, 180);
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormThongKe());
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormThongKe());
+            CloseCurrentDropdown();
+            labelTitleHeader.Text = "Quản lý hồ sơ sinh viên";
+        }
+
+        private void guna2Button15_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new thongtinthuctap());
+            CloseCurrentDropdown();
+            labelTitleHeader.Text = "Thông tin thực tập";
+        }
+
+        private void guna2Button14_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new thongtintotnghiep());
+            CloseCurrentDropdown();
+            labelTitleHeader.Text = "Thông tin tốt nghiệp";
         }
     }
 }

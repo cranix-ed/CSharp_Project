@@ -70,7 +70,7 @@ namespace Project_CSharp.Forms.Ngoc
         }
         private void load_Giangvien()
         {
-            if (con.State == ConnectionState.Closed) ;
+            if (con.State == ConnectionState.Closed) 
             con.Open();
 
             String sql = "SELECT * FROM giaovien";

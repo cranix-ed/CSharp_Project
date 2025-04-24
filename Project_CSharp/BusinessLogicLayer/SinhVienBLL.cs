@@ -126,5 +126,32 @@ namespace Project_CSharp.BusinessLogicLayer
             else
                 return "Đã xếp lớp thành công cho tất cả sinh viên.";
         }
+
+
+        // BLL sử dụng cho thống kê
+        public int LayTongSinhVien()
+        {
+            return sinhVienDAL.DemTongSinhVien();
+        }
+
+        public int LaySoSinhVienTheoGioiTinh(string gioitinh)
+        {
+            return sinhVienDAL.DemSinhVienTheoGioiTinh(gioitinh);
+        }
+
+        public DataTable LayThongKeTheoKhoa()
+        {
+            return sinhVienDAL.DemSinhVienTheoKhoa();
+        }
+
+        public DataTable LayThongKeTheoNganh()
+        {
+            return sinhVienDAL.DemSinhVienTheoNganh();
+        }
+
+        public DataTable LayThongKeTheoKhoaHoc()
+        {
+            return sinhVienDAL.DemSinhVienTheoKhoaHoc();
+        }
     }
 }

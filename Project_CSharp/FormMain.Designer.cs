@@ -32,7 +32,6 @@
             this.components = new System.ComponentModel.Container();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.PanelControl = new Guna.UI2.WinForms.Guna2Panel();
-            this.ImabtnSidebar = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -48,30 +47,32 @@
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDropDown1 = new Guna.UI2.WinForms.Guna2Button();
             this.panelDropDownNgoc = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDropDown2 = new Guna.UI2.WinForms.Guna2Button();
             this.panelDropDownVinh = new Guna.UI2.WinForms.Guna2Panel();
             this.btnOption = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnDropDown = new Guna.UI2.WinForms.Guna2Button();
             this.panelDropDownAnh = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
             this.panelDropDownTung = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
             this.dropdownTimer = new System.Windows.Forms.Timer(this.components);
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.btnHome = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnDropDown1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDropDown2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDropDown = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
+            this.ImabtnSidebar = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PanelControl.SuspendLayout();
             this.PanelMain.SuspendLayout();
             this.PanelHeader.SuspendLayout();
@@ -104,25 +105,6 @@
             this.PanelControl.Name = "PanelControl";
             this.PanelControl.Size = new System.Drawing.Size(1282, 30);
             this.PanelControl.TabIndex = 0;
-            // 
-            // ImabtnSidebar
-            // 
-            this.ImabtnSidebar.BackColor = System.Drawing.Color.Transparent;
-            this.ImabtnSidebar.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.ImabtnSidebar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImabtnSidebar.HoverState.Image = global::Project_CSharp.Properties.Resources.icons8_menu_50px;
-            this.ImabtnSidebar.HoverState.ImageSize = new System.Drawing.Size(24, 24);
-            this.ImabtnSidebar.Image = global::Project_CSharp.Properties.Resources.icons8_menu_50px;
-            this.ImabtnSidebar.ImageOffset = new System.Drawing.Point(0, 0);
-            this.ImabtnSidebar.ImageRotate = 0F;
-            this.ImabtnSidebar.ImageSize = new System.Drawing.Size(20, 20);
-            this.ImabtnSidebar.Location = new System.Drawing.Point(8, 0);
-            this.ImabtnSidebar.Name = "ImabtnSidebar";
-            this.ImabtnSidebar.PressedState.Image = global::Project_CSharp.Properties.Resources.icons8_menu_50px;
-            this.ImabtnSidebar.PressedState.ImageSize = new System.Drawing.Size(24, 24);
-            this.ImabtnSidebar.Size = new System.Drawing.Size(30, 30);
-            this.ImabtnSidebar.TabIndex = 0;
-            this.ImabtnSidebar.Click += new System.EventHandler(this.ImabtnSidebar_Click);
             // 
             // guna2ControlBox3
             // 
@@ -182,6 +164,7 @@
             // PanelHeader
             // 
             this.PanelHeader.BackColor = System.Drawing.Color.LightGray;
+            this.PanelHeader.Controls.Add(this.btnHome);
             this.PanelHeader.Controls.Add(this.labelTitleHeader);
             this.PanelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelHeader.Location = new System.Drawing.Point(240, 30);
@@ -324,28 +307,6 @@
             this.guna2Button7.Text = "Quản lý sinh viên";
             this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
-            // btnDropDown1
-            // 
-            this.btnDropDown1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDropDown1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDropDown1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDropDown1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDropDown1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDropDown1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDropDown1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnDropDown1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDropDown1.ForeColor = System.Drawing.Color.White;
-            this.btnDropDown1.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
-            this.btnDropDown1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDropDown1.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnDropDown1.Location = new System.Drawing.Point(0, 0);
-            this.btnDropDown1.Name = "btnDropDown1";
-            this.btnDropDown1.Size = new System.Drawing.Size(240, 45);
-            this.btnDropDown1.TabIndex = 0;
-            this.btnDropDown1.Text = "Sinh viên";
-            this.btnDropDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDropDown1.Click += new System.EventHandler(this.btnDropDown1_Click);
-            // 
             // panelDropDownNgoc
             // 
             this.panelDropDownNgoc.Controls.Add(this.guna2Button1);
@@ -410,28 +371,6 @@
             this.guna2Button8.TabIndex = 1;
             this.guna2Button8.Text = "Quản lý giảng viên";
             this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
-            // 
-            // btnDropDown2
-            // 
-            this.btnDropDown2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDropDown2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDropDown2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDropDown2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDropDown2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDropDown2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDropDown2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnDropDown2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDropDown2.ForeColor = System.Drawing.Color.White;
-            this.btnDropDown2.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
-            this.btnDropDown2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDropDown2.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnDropDown2.Location = new System.Drawing.Point(0, 0);
-            this.btnDropDown2.Name = "btnDropDown2";
-            this.btnDropDown2.Size = new System.Drawing.Size(240, 45);
-            this.btnDropDown2.TabIndex = 0;
-            this.btnDropDown2.Text = "Giảng viên";
-            this.btnDropDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDropDown2.Click += new System.EventHandler(this.btnDropDown2_Click);
             // 
             // panelDropDownVinh
             // 
@@ -498,29 +437,6 @@
             this.guna2Button2.Text = "Quản lý khóa học";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // btnDropDown
-            // 
-            this.btnDropDown.BackColor = System.Drawing.Color.Black;
-            this.btnDropDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDropDown.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDropDown.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDropDown.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDropDown.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDropDown.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDropDown.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnDropDown.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDropDown.ForeColor = System.Drawing.Color.White;
-            this.btnDropDown.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
-            this.btnDropDown.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDropDown.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnDropDown.Location = new System.Drawing.Point(0, 0);
-            this.btnDropDown.Name = "btnDropDown";
-            this.btnDropDown.Size = new System.Drawing.Size(240, 45);
-            this.btnDropDown.TabIndex = 0;
-            this.btnDropDown.Text = "Người dùng";
-            this.btnDropDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnDropDown.Click += new System.EventHandler(this.btnDropDown_Click);
-            // 
             // panelDropDownAnh
             // 
             this.panelDropDownAnh.Controls.Add(this.guna2Button9);
@@ -586,28 +502,6 @@
             this.guna2Button11.Text = "Quản lý học bổng";
             this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
             // 
-            // guna2Button12
-            // 
-            this.guna2Button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button12.ForeColor = System.Drawing.Color.White;
-            this.guna2Button12.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
-            this.guna2Button12.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button12.ImageSize = new System.Drawing.Size(24, 24);
-            this.guna2Button12.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.Size = new System.Drawing.Size(240, 45);
-            this.guna2Button12.TabIndex = 0;
-            this.guna2Button12.Text = "Khen thưởng, học bổng";
-            this.guna2Button12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
-            // 
             // panelDropDownTung
             // 
             this.panelDropDownTung.Controls.Add(this.guna2Button13);
@@ -652,7 +546,8 @@
             this.guna2Button14.Name = "guna2Button14";
             this.guna2Button14.Size = new System.Drawing.Size(240, 45);
             this.guna2Button14.TabIndex = 2;
-            this.guna2Button14.Text = "guna2Button14";
+            this.guna2Button14.Text = "Thông tin tốt nghiệp";
+            this.guna2Button14.Click += new System.EventHandler(this.guna2Button14_Click);
             // 
             // guna2Button15
             // 
@@ -668,7 +563,132 @@
             this.guna2Button15.Name = "guna2Button15";
             this.guna2Button15.Size = new System.Drawing.Size(240, 45);
             this.guna2Button15.TabIndex = 1;
-            this.guna2Button15.Text = "guna2Button15";
+            this.guna2Button15.Text = "Thông tin thực tập";
+            this.guna2Button15.Click += new System.EventHandler(this.guna2Button15_Click);
+            // 
+            // dropdownTimer
+            // 
+            this.dropdownTimer.Interval = 10;
+            this.dropdownTimer.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // sidebarTimer
+            // 
+            this.sidebarTimer.Interval = 15;
+            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
+            // 
+            // guna2BorderlessForm1
+            // 
+            this.guna2BorderlessForm1.BorderRadius = 20;
+            this.guna2BorderlessForm1.ContainerControl = this;
+            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // btnHome
+            // 
+            this.btnHome.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.HoverState.Image = global::Project_CSharp.Properties.Resources.home_7_16;
+            this.btnHome.HoverState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnHome.Image = global::Project_CSharp.Properties.Resources.home_7_16;
+            this.btnHome.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnHome.ImageRotate = 0F;
+            this.btnHome.ImageSize = new System.Drawing.Size(28, 28);
+            this.btnHome.Location = new System.Drawing.Point(3, 0);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.PressedState.Image = global::Project_CSharp.Properties.Resources.home_7_16;
+            this.btnHome.PressedState.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnHome.Size = new System.Drawing.Size(35, 35);
+            this.btnHome.TabIndex = 3;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // btnDropDown1
+            // 
+            this.btnDropDown1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDropDown1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDropDown1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDropDown1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDropDown1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDropDown1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDropDown1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnDropDown1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDropDown1.ForeColor = System.Drawing.Color.White;
+            this.btnDropDown1.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
+            this.btnDropDown1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDropDown1.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnDropDown1.Location = new System.Drawing.Point(0, 0);
+            this.btnDropDown1.Name = "btnDropDown1";
+            this.btnDropDown1.Size = new System.Drawing.Size(240, 45);
+            this.btnDropDown1.TabIndex = 0;
+            this.btnDropDown1.Text = "Quản lý sinh viên";
+            this.btnDropDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDropDown1.Click += new System.EventHandler(this.btnDropDown1_Click);
+            // 
+            // btnDropDown2
+            // 
+            this.btnDropDown2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDropDown2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDropDown2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDropDown2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDropDown2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDropDown2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDropDown2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnDropDown2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDropDown2.ForeColor = System.Drawing.Color.White;
+            this.btnDropDown2.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
+            this.btnDropDown2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDropDown2.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnDropDown2.Location = new System.Drawing.Point(0, 0);
+            this.btnDropDown2.Name = "btnDropDown2";
+            this.btnDropDown2.Size = new System.Drawing.Size(240, 45);
+            this.btnDropDown2.TabIndex = 0;
+            this.btnDropDown2.Text = "Quản lý giảng dạy";
+            this.btnDropDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDropDown2.Click += new System.EventHandler(this.btnDropDown2_Click);
+            // 
+            // btnDropDown
+            // 
+            this.btnDropDown.BackColor = System.Drawing.Color.Black;
+            this.btnDropDown.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDropDown.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDropDown.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDropDown.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDropDown.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDropDown.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDropDown.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnDropDown.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDropDown.ForeColor = System.Drawing.Color.White;
+            this.btnDropDown.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
+            this.btnDropDown.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDropDown.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnDropDown.Location = new System.Drawing.Point(0, 0);
+            this.btnDropDown.Name = "btnDropDown";
+            this.btnDropDown.Size = new System.Drawing.Size(240, 45);
+            this.btnDropDown.TabIndex = 0;
+            this.btnDropDown.Text = "Hệ thống đào tạo";
+            this.btnDropDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDropDown.Click += new System.EventHandler(this.btnDropDown_Click);
+            // 
+            // guna2Button12
+            // 
+            this.guna2Button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.guna2Button12.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button12.ForeColor = System.Drawing.Color.White;
+            this.guna2Button12.Image = global::Project_CSharp.Properties.Resources.icons8_education_30px;
+            this.guna2Button12.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button12.ImageSize = new System.Drawing.Size(24, 24);
+            this.guna2Button12.Location = new System.Drawing.Point(0, 0);
+            this.guna2Button12.Name = "guna2Button12";
+            this.guna2Button12.Size = new System.Drawing.Size(240, 45);
+            this.guna2Button12.TabIndex = 0;
+            this.guna2Button12.Text = "Hỗ trợ sinh viên";
+            this.guna2Button12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button12.Click += new System.EventHandler(this.guna2Button12_Click);
             // 
             // guna2Button16
             // 
@@ -692,22 +712,24 @@
             this.guna2Button16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button16.Click += new System.EventHandler(this.guna2Button16_Click);
             // 
-            // dropdownTimer
+            // ImabtnSidebar
             // 
-            this.dropdownTimer.Interval = 10;
-            this.dropdownTimer.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // sidebarTimer
-            // 
-            this.sidebarTimer.Interval = 15;
-            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
-            // 
-            // guna2BorderlessForm1
-            // 
-            this.guna2BorderlessForm1.BorderRadius = 20;
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            this.ImabtnSidebar.BackColor = System.Drawing.Color.Transparent;
+            this.ImabtnSidebar.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.ImabtnSidebar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImabtnSidebar.HoverState.Image = global::Project_CSharp.Properties.Resources.icons8_menu_50px;
+            this.ImabtnSidebar.HoverState.ImageSize = new System.Drawing.Size(24, 24);
+            this.ImabtnSidebar.Image = global::Project_CSharp.Properties.Resources.icons8_menu_50px;
+            this.ImabtnSidebar.ImageOffset = new System.Drawing.Point(0, 0);
+            this.ImabtnSidebar.ImageRotate = 0F;
+            this.ImabtnSidebar.ImageSize = new System.Drawing.Size(20, 20);
+            this.ImabtnSidebar.Location = new System.Drawing.Point(8, 0);
+            this.ImabtnSidebar.Name = "ImabtnSidebar";
+            this.ImabtnSidebar.PressedState.Image = global::Project_CSharp.Properties.Resources.icons8_menu_50px;
+            this.ImabtnSidebar.PressedState.ImageSize = new System.Drawing.Size(24, 24);
+            this.ImabtnSidebar.Size = new System.Drawing.Size(30, 30);
+            this.ImabtnSidebar.TabIndex = 0;
+            this.ImabtnSidebar.Click += new System.EventHandler(this.ImabtnSidebar_Click);
             // 
             // FormMain
             // 
@@ -721,6 +743,7 @@
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.PanelControl.ResumeLayout(false);
             this.PanelMain.ResumeLayout(false);
             this.PanelHeader.ResumeLayout(false);
@@ -782,6 +805,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button14;
         private Guna.UI2.WinForms.Guna2Button guna2Button15;
         private Guna.UI2.WinForms.Guna2Button guna2Button16;
+        private Guna.UI2.WinForms.Guna2ImageButton btnHome;
     }
 }
 

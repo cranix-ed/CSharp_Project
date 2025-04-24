@@ -122,5 +122,19 @@ namespace Project_CSharp.DataAccessLayer
 
             return DatabaseHelper.ExecuteQuery(query, parameters.ToArray());
         }
+
+
+        // DAL sử dụng cho thống kê
+        public int DemTongLopHoc()
+        {
+            string query = "SELECT COUNT(*) FROM lophoc";
+            return (int)DatabaseHelper.ExecuteScalar(query);
+        }
+
+        public int DemTongGiangVien()
+        {
+            string query = "SELECT COUNT(*) FROM giaovien";
+            return (int)DatabaseHelper.ExecuteScalar(query);
+        }
     }
 }

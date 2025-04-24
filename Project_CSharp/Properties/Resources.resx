@@ -124,6 +124,9 @@
   <data name="icons8_student_male_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_student_male_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_home_24px_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_home_24px_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_menu_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_menu_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,5 +141,8 @@
   </data>
   <data name="icons8_education_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_education_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-7-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-7-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

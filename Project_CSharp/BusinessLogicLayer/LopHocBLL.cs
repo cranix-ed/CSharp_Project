@@ -42,5 +42,19 @@ namespace Project_CSharp.BusinessLogicLayer
         {
             return lopHocDAL.SearchLopHoc(malop, giaovien, khoahoc, khoa, nganh);
         }
+
+        // BLL sử dụng cho thống kê
+        public int LayTongLopHoc()
+        {
+            return lopHocDAL.DemTongLopHoc();
+        }
+
+        public int LayTongGiangVien()
+        {
+            return lopHocDAL.DemTongGiangVien();
+        }
     }
+
+
+    
 }

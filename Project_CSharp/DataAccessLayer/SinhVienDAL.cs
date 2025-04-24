@@ -241,5 +241,51 @@ namespace Project_CSharp.DataAccessLayer
             };
             DatabaseHelper.ExecuteNonQuery(query, parameters);
         }
+
+        // DAL sử dụng trong thống kê
+        public int DemTongSinhVien()
+        {
+            string query = "SELECT COUNT(*) FROM sinhvien";
+            return (int)DatabaseHelper.ExecuteScalar(query);
+        }
+
+        public int DemSinhVienTheoGioiTinh(string gioitinh)
+        {
+            string query = "SELECT COUNT(*) FROM sinhvien WHERE gioitinh = @GioiTinh";
+            SqlParameter[] parameters = {
+            new SqlParameter("@GioiTinh", gioitinh)
+        };
+            return (int)DatabaseHelper.ExecuteScalar(query, parameters);
+        }
+
+        public DataTable DemSinhVienTheoKhoa()
+        {
+            string query = @"
+            SELECT k.tenkhoa, COUNT(*) AS soluongk
+            FROM sinhvien sv
+            JOIN khoa k ON sv.idkhoa = k.idkhoa
+            GROUP BY k.tenkhoa";
+            return DatabaseHelper.ExecuteQuery(query);
+        }
+
+        public DataTable DemSinhVienTheoNganh()
+        {
+            string query = @"
+            SELECT nh.tennganh, COUNT(*) AS soluongn
+            FROM sinhvien sv
+            JOIN nganhhoc nh ON sv.idnganh = nh.idnganh
+            GROUP BY nh.tennganh";
+            return DatabaseHelper.ExecuteQuery(query);
+        }
+
+        public DataTable DemSinhVienTheoKhoaHoc()
+        {
+            string query = @"
+            SELECT kh.tenkhoahoc, COUNT(*) AS soluongkh
+            FROM sinhvien sv
+            JOIN khoahoc kh ON sv.idkhoahoc = kh.idkhoahoc
+            GROUP BY kh.tenkhoahoc";
+            return DatabaseHelper.ExecuteQuery(query);
+        }
     }
 }

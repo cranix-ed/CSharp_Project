@@ -35,7 +35,7 @@ namespace Project_CSharp.Forms.Ngoc
         private void Load_phanquyen()
         {
             //B1:Ket noi Database 
-            if (con.State == ConnectionState.Closed) ;
+            if (con.State == ConnectionState.Closed)
             con.Open();
             //B2: Tao doi tuong Command
             String sql = "Select * From nguoidung";

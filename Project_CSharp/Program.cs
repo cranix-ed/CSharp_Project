@@ -16,7 +16,7 @@ namespace Project_CSharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new Dangnhap());
         }
     }
 }

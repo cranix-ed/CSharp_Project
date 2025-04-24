@@ -42,3 +42,7 @@ C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.
 C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Forms.Vinh.qlymonhoc.resources
 C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Forms.Vinh.ttnguoidung.resources
 C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.csproj.ResolveComReference.cache
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Forms.FormThongKe.resources
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Dangnhap.resources
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Forms.Tung.thongtinthuctap.resources
+C:\Users\PC\source\repos\Project_CSharp\Project_CSharp\obj\Debug\Project_CSharp.Forms.Tung.thongtintotnghiep.resources

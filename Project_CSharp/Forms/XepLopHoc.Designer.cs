@@ -151,6 +151,7 @@
             // 
             // btnXepLop
             // 
+            this.btnXepLop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXepLop.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnXepLop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnXepLop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -340,6 +341,7 @@
             // 
             // btnSVChuaCoLop
             // 
+            this.btnSVChuaCoLop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSVChuaCoLop.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSVChuaCoLop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSVChuaCoLop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

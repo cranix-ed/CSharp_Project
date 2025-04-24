@@ -68,6 +68,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.cbtkgt = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.btnXuat = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -296,7 +297,6 @@
             this.Capnhatgiangvien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Capnhatgiangvien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.Capnhatgiangvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Capnhatgiangvien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -322,6 +322,7 @@
             this.Column1.HeaderText = "Mã giáo viên";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // Column2
             // 
@@ -329,6 +330,7 @@
             this.Column2.HeaderText = "Họ và tên";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Column3
             // 
@@ -336,6 +338,7 @@
             this.Column3.HeaderText = "Ngày sinh";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
             // 
             // Column4
             // 
@@ -343,6 +346,7 @@
             this.Column4.HeaderText = "Giới tính ";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
             // 
             // Column5
             // 
@@ -350,6 +354,7 @@
             this.Column5.HeaderText = "Địa chỉ";
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
+            this.Column5.Width = 125;
             // 
             // Column6
             // 
@@ -357,6 +362,7 @@
             this.Column6.HeaderText = "Số điện thoại";
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
             // 
             // Column7
             // 
@@ -364,6 +370,7 @@
             this.Column7.HeaderText = "Email";
             this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
+            this.Column7.Width = 125;
             // 
             // Column8
             // 
@@ -371,6 +378,7 @@
             this.Column8.HeaderText = "Khoa";
             this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
+            this.Column8.Width = 125;
             // 
             // Column9
             // 
@@ -378,6 +386,7 @@
             this.Column9.HeaderText = "Ma khoa";
             this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
+            this.Column9.Width = 125;
             // 
             // btnTimKien
             // 
@@ -467,6 +476,16 @@
             this.label11.TabIndex = 14;
             this.label11.Text = "Giới tính:";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(386, 13);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(311, 38);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Quản Lý Giảng Viên";
+            // 
             // btnXuat
             // 
             this.btnXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -484,6 +503,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 653);
             this.Controls.Add(this.btnXuat);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.cbtkkhoa);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label10);
@@ -539,6 +559,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cbtkgt;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
