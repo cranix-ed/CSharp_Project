@@ -304,5 +304,12 @@ namespace Project_CSharp
             CloseCurrentDropdown();
             labelTitleHeader.Text = "Thông tin tốt nghiệp";
         }
+
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new hocky());
+            CloseCurrentDropdown();
+            labelTitleHeader.Text = "Quản lý học kỳ";
+        }
     }
 }
