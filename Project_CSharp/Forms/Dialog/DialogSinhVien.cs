@@ -137,6 +137,13 @@ namespace Project_CSharp.Forms.Dialog
                 return false;
             }
 
+            if (!string.IsNullOrWhiteSpace(txtEmail.Text) &&
+                !Regex.IsMatch(txtEmail.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                MessageBox.Show("Email không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
             return true;
         }
 

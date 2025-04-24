@@ -68,7 +68,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.cbtkgt = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.btnXuat = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -476,16 +475,6 @@
             this.label11.TabIndex = 14;
             this.label11.Text = "Giới tính:";
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(386, 13);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(311, 38);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "Quản Lý Giảng Viên";
-            // 
             // btnXuat
             // 
             this.btnXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -503,7 +492,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 653);
             this.Controls.Add(this.btnXuat);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.cbtkkhoa);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label10);
@@ -559,7 +547,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cbtkgt;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;

@@ -154,6 +154,12 @@
     <Compile Include="Forms\Ngoc\Phanquyen.Designer.cs">
       <DependentUpon>Phanquyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Tung\hocky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Tung\hocky.Designer.cs">
+      <DependentUpon>hocky.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Tung\thongtinthuctap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Ngoc\Phanquyen.resx">
       <DependentUpon>Phanquyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Tung\hocky.resx">
+      <DependentUpon>hocky.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Tung\thongtinthuctap.resx">
       <DependentUpon>thongtinthuctap.cs</DependentUpon>
