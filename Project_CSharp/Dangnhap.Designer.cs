@@ -86,13 +86,14 @@
             // btndangnhap
             // 
             this.btndangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndangnhap.Location = new System.Drawing.Point(398, 356);
+            this.btndangnhap.Location = new System.Drawing.Point(439, 365);
             this.btndangnhap.Name = "btndangnhap";
             this.btndangnhap.Size = new System.Drawing.Size(173, 57);
             this.btndangnhap.TabIndex = 5;
             this.btndangnhap.Text = "Đăng Nhập";
             this.btndangnhap.UseVisualStyleBackColor = true;
             this.btndangnhap.Click += new System.EventHandler(this.btndangnhap_Click);
+            this.btndangnhap.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btndangnhap_KeyPress);
             // 
             // Dangnhap
             // 

@@ -1,0 +1,1029 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\formthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\formthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\formthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\formthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\xeplophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\xeplophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\xeplophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\xeplophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\formsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\formsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\formlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\formlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\formlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\formlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|c:\\users\\pc\\source\\repos\\project_csharp\\project_csharp\\forms\\dialog\\dialoglophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\dialog\\dialoglophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\dialog\\dialoglophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\dialog\\dialoglophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dataaccesslayer\\sinhviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dataaccesslayer\\sinhviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|c:\\users\\pc\\source\\repos\\project_csharp\\project_csharp\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\models\\khoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\models\\khoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dataaccesslayer\\giaoviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dataaccesslayer\\giaoviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\businesslogiclayer\\sinhvienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\businesslogiclayer\\sinhvienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\formsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\formsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\nganhhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\nganhhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\nganhhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\nganhhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\suckhoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\suckhoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\suckhoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\suckhoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\kyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\kyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\hocbong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\hocbong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\kyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\kyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\hocbong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\hocbong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Downloads\\BTL\\hocbong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\thongtintotnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\thongtintotnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\thongtintotnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\thongtintotnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\thongtinthuctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\thongtinthuctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\thongtinthuctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\thongtinthuctap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\hocky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\hocky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\dialog\\dialogsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\dialog\\dialogsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\dialog\\dialogsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\dialog\\dialogsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\businesslogiclayer\\lophocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\businesslogiclayer\\lophocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dataaccesslayer\\lophocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dataaccesslayer\\lophocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\giangvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\giangvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\thongtintotnghiep.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\thongtintotnghiep.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\tung\\thongtinthuctap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\tung\\thongtinthuctap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\vinh\\ttnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\vinh\\ttnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\vinh\\ttnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\vinh\\ttnguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\vinh\\qlymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\vinh\\qlymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\vinh\\qlymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\vinh\\qlymonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\vinh\\qlykhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\vinh\\qlykhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\vinh\\qlykhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\vinh\\qlykhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\phanquyen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\phanquyen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\ngoc\\nganhhoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\ngoc\\nganhhoc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\hocbong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\hocbong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\suckhoe.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\suckhoe.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\forms\\anh\\kyluat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\forms\\anh\\kyluat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dataaccesslayer\\nganhhocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dataaccesslayer\\nganhhocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\dataaccesslayer\\khoadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\dataaccesslayer\\khoadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|C:\\Users\\PC\\source\\repos\\Project_CSharp\\project_csharp\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306E9BE5-EFCD-4DD1-ACCF-08CAB3DD6E0E}|Project_CSharp\\Project_CSharp.csproj|solutionrelative:project_csharp\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormSinhVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormSinhVien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\FormSinhVien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormSinhVien.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\FormSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:27:50Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormLopHoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormLopHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\FormLopHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormLopHoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\FormLopHoc.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAK4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:42:11.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XepLopHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\XepLopHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\XepLopHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\XepLopHoc.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\XepLopHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:12:50.652Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XepLopHoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\XepLopHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\XepLopHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\XepLopHoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\XepLopHoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:11:07.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormThongKe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormThongKe.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\FormThongKe.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormThongKe.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\FormThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:24:52.066Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormThongKe.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormThongKe.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\FormThongKe.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormThongKe.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\FormThongKe.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwD4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:29:52.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DialogLopHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:46:13.068Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SinhVienDAL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\SinhVienDAL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\DataAccessLayer\\SinhVienDAL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\SinhVienDAL.cs",
+              "RelativeToolTip": "Project_CSharp\\DataAccessLayer\\SinhVienDAL.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:42:49.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormLopHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormLopHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\FormLopHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormLopHoc.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\FormLopHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:08:04.134Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DialogLopHoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Dialog\\DialogLopHoc.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:20:59.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\FormMain.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\FormMain.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\FormMain.cs",
+              "RelativeToolTip": "Project_CSharp\\FormMain.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAAFABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:08:59.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KhoaHoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Models\\KhoaHoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Models\\KhoaHoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Models\\KhoaHoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Models\\KhoaHoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T19:11:36.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\FormMain.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\FormMain.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\FormMain.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:31:31.385Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dangnhap.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Dangnhap.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Dangnhap.cs",
+              "RelativeToolTip": "Project_CSharp\\Dangnhap.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:14:51.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dangnhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Dangnhap.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Dangnhap.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Dangnhap.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Dangnhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:44:33.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Models\\User.cs",
+              "RelativeToolTip": "Project_CSharp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T19:13:47.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GiaoVienDAL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\GiaoVienDAL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\DataAccessLayer\\GiaoVienDAL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\GiaoVienDAL.cs",
+              "RelativeToolTip": "Project_CSharp\\DataAccessLayer\\GiaoVienDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T19:11:04.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SinhVienBLL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\BusinessLogicLayer\\SinhVienBLL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\BusinessLogicLayer\\SinhVienBLL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\BusinessLogicLayer\\SinhVienBLL.cs",
+              "RelativeToolTip": "Project_CSharp\\BusinessLogicLayer\\SinhVienBLL.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAhwG4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:21:39.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Helpers\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Helpers\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Helpers\\DatabaseHelper.cs",
+              "RelativeToolTip": "Project_CSharp\\Helpers\\DatabaseHelper.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:01:44.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Nganhhoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:00:08.143Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormSinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormSinhVien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\FormSinhVien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\FormSinhVien.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\FormSinhVien.cs",
+              "ViewState": "AgIAACABAAAAAAAAAAAuwDQBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:55:38.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "suckhoe.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\suckhoe.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\suckhoe.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\suckhoe.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\suckhoe.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAAAAsBAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:13.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Nganhhoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Nganhhoc.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwDUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:00:10.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Giangvien.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Giangvien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Giangvien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Giangvien.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Giangvien.cs",
+              "ViewState": "AgIAAKEBAAAAAAAAAAAAAEMBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:22:21.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Giangvien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Giangvien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Giangvien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Giangvien.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Giangvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:13:54.781Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "suckhoe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\suckhoe.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\suckhoe.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\suckhoe.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\suckhoe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:02:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "kyluat.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\kyluat.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\kyluat.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\kyluat.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\kyluat.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAAP4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:22:47.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "hocbong.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\hocbong.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\hocbong.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\hocbong.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\hocbong.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAAwPkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:13.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "hocbong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\hocbong.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\hocbong.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\hocbong.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\hocbong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:25.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "kyluat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\kyluat.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\kyluat.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\kyluat.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\kyluat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:28.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "thongtintotnghiep.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:05:49.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "thongtintotnghiep.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\thongtintotnghiep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:05:05.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "hocbong.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\BTL\\hocbong.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\BTL\\hocbong.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\BTL\\hocbong.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\BTL\\hocbong.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T01:01:07.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "hocky.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\hocky.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\hocky.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\hocky.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\hocky.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwAoAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:13:35.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "hocky.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\hocky.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\hocky.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\hocky.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\hocky.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:14:02.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "thongtinthuctap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:05:37.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "hocky.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\hocky.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\hocky.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\hocky.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\hocky.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:13:34.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "thongtinthuctap.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\thongtinthuctap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:05:05.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DialogSinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:35:34.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DialogSinhVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Dialog\\DialogSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:30:17.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Phanquyen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:00:19.56Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LopHocDAL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\LopHocDAL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\DataAccessLayer\\LopHocDAL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\LopHocDAL.cs",
+              "RelativeToolTip": "Project_CSharp\\DataAccessLayer\\LopHocDAL.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwIcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:31:03.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LopHocBLL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\BusinessLogicLayer\\LopHocBLL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\BusinessLogicLayer\\LopHocBLL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\BusinessLogicLayer\\LopHocBLL.cs",
+              "RelativeToolTip": "Project_CSharp\\BusinessLogicLayer\\LopHocBLL.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:32:03.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Phanquyen.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Phanquyen.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:00:21.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Program.cs",
+              "RelativeToolTip": "Project_CSharp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:54:36.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Dangnhap.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Dangnhap.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Dangnhap.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Dangnhap.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Dangnhap.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:14:51.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Giangvien.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Giangvien.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Giangvien.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Giangvien.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Giangvien.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:13:35.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "thongtintotnghiep.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtintotnghiep.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\thongtintotnghiep.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtintotnghiep.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\thongtintotnghiep.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:05:05.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "thongtinthuctap.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtinthuctap.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Tung\\thongtinthuctap.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Tung\\thongtinthuctap.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Tung\\thongtinthuctap.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:05:04.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ttnguoidung.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:03:34.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ttnguoidung.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Vinh\\ttnguoidung.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:03:32.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "qlymonhoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:03:24.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "qlymonhoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Vinh\\qlymonhoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:03:22.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "qlykhoahoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:03:14.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "qlykhoahoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs [Design]",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Vinh\\qlykhoahoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:03:12.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Phanquyen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Phanquyen.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Phanquyen.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Phanquyen.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Phanquyen.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:51:04.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Nganhhoc.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Nganhhoc.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Ngoc\\Nganhhoc.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Ngoc\\Nganhhoc.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Ngoc\\Nganhhoc.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:51:04.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "suckhoe.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\suckhoe.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\suckhoe.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\suckhoe.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\suckhoe.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:13.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "kyluat.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\kyluat.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\kyluat.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\kyluat.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\kyluat.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:13.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "hocbong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\hocbong.Designer.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Forms\\Anh\\hocbong.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Forms\\Anh\\hocbong.Designer.cs",
+              "RelativeToolTip": "Project_CSharp\\Forms\\Anh\\hocbong.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:46:13.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "KhoaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\KhoaDAL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\DataAccessLayer\\KhoaDAL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\KhoaDAL.cs",
+              "RelativeToolTip": "Project_CSharp\\DataAccessLayer\\KhoaDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:29:58.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "NganhHocDAL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\NganhHocDAL.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\DataAccessLayer\\NganhHocDAL.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\DataAccessLayer\\NganhHocDAL.cs",
+              "RelativeToolTip": "Project_CSharp\\DataAccessLayer\\NganhHocDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:29:47.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "Project_CSharp\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Project_CSharp\\Project_CSharp\\Models\\SinhVien.cs",
+              "RelativeToolTip": "Project_CSharp\\Models\\SinhVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T15:12:42.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

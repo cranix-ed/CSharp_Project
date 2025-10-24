@@ -21,7 +21,7 @@ namespace Project_CSharp.Forms.Anh
             if (con.State == ConnectionState.Closed)
                 con.Open();
 
-            String sql = "select idsinhvien, hoten from sinhvien"; // chọn rõ ràng
+            String sql = "select idsinhvien, masinhvien from sinhvien"; // chọn rõ ràng
             SqlCommand cmd = new SqlCommand(sql, con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable tb = new DataTable();
@@ -31,18 +31,19 @@ namespace Project_CSharp.Forms.Anh
 
             // Tạo dòng trống để làm dòng "Chọn sinh viên"
             DataRow r = tb.NewRow();
-            r["idsinhvien"] = 0; // hoặc DBNull.Value
-            r["hoten"] = "<-- Chọn id -->";
+            r["idsinhvien"] = DBNull.Value; // hoặc DBNull.Value
+            r["masinhvien"] = "<-- Chọn id -->";
             tb.Rows.InsertAt(r, 0);
 
             // Gán dữ liệu cho ComboBox
             cbmasv.DataSource = tb;
             cbmasv.ValueMember = "idsinhvien";
-            cbmasv.DisplayMember = "hoten";
+            cbmasv.DisplayMember = "idsinhvien";
+
 
             searchmasv.DataSource = tb;
             searchmasv.ValueMember = "idsinhvien";
-            searchmasv.DisplayMember = "hoten";
+            searchmasv.DisplayMember = "idsinhvien";
         }
         private void loadhocbong()
         {
@@ -61,21 +62,21 @@ namespace Project_CSharp.Forms.Anh
             cmd.Dispose();
             con.Close();
             dataGridView1.DataSource = tb;
-            //dataGridView1.Refresh();
+            dataGridView1.Refresh();
 
         }
-        
 
-        public bool checktrungmahb(string mahb)
+
+        public bool checktrungmasv(string masv)
         {
             try
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "SELECT COUNT(*) FROM hocbong WHERE idhocbong = @mahb";
+                string sql = "SELECT COUNT(*) FROM hocbong WHERE idsinhvien = @masv";
                 SqlCommand cmd = new SqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@mahb", mahb);
+                cmd.Parameters.AddWithValue("@masv", masv);
                 int count = (int)cmd.ExecuteScalar();
                 return count > 0;
             }
@@ -84,19 +85,30 @@ namespace Project_CSharp.Forms.Anh
                 con.Close();
             }
         }
+        private bool IsSoTienHopLe(string sotien, out decimal result)
+        {
+
+            return decimal.TryParse(sotien, out result);
+        }
 
         private void Luu_Click(object sender, EventArgs e)
         {
-            string mahb = txtmahb.Text.Trim();
             string msv = cbmasv.SelectedValue.ToString();
             string tenhb = txttenhb.Text.Trim();
             string sotien = txtsotien.Text.Trim();
             DateTime ngcap = txtngcap.Value;
 
-            if (checktrungmahb(mahb))
+            if (!IsSoTienHopLe(sotien, out decimal soTienDecimal))
             {
-                MessageBox.Show("Trùng mã học bổng.");
-                txtmahb.Focus();
+                MessageBox.Show("Số tiền phải là một số hợp lệ.");
+                txtsotien.Focus();
+                return;
+            }
+
+            if (checktrungmasv(msv))
+            {
+                MessageBox.Show("Trùng mã sinh viêm");
+                cbmasv.Focus();
                 return;
             }
 
@@ -105,9 +117,9 @@ namespace Project_CSharp.Forms.Anh
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "INSERT INTO hocbong VALUES (@mhb, @msv, @tenhb, @sotien, @ngcap)";
+                string sql = "INSERT INTO hocbong VALUES ( @msv, @tenhb, @sotien, @ngcap)";
                 SqlCommand com = new SqlCommand(sql, con);
-                com.Parameters.AddWithValue("@mhb", mahb);
+
                 com.Parameters.AddWithValue("@msv", msv);
                 com.Parameters.AddWithValue("@tenhb", tenhb);
                 com.Parameters.AddWithValue("@sotien", sotien);
@@ -129,20 +141,25 @@ namespace Project_CSharp.Forms.Anh
 
         private void Sua_Click(object sender, EventArgs e)
         {
-            string mahb = txtmahb.Text.Trim();
             string msv = cbmasv.SelectedValue.ToString();
             string tenhb = txttenhb.Text.Trim();
             string sotien = txtsotien.Text.Trim();
             DateTime ngcap = txtngcap.Value;
 
+            if (!IsSoTienHopLe(sotien, out decimal soTienDecimal))
+            {
+                MessageBox.Show("Số tiền phải là một số hợp lệ.");
+                txtsotien.Focus();
+                return;
+            }
             try
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "UPDATE hocbong SET idsinhvien = @msv, tenhocbong = @tenhb, sotien = @sotien, ngaycap = @ngcap WHERE idhocbong = @mhb";
+                string sql = "UPDATE hocbong SET  tenhocbong = @tenhb, sotien = @sotien, ngaycap = @ngcap WHERE idsinhvien = @msv";
                 SqlCommand com = new SqlCommand(sql, con);
-                com.Parameters.AddWithValue("@mhb", mahb);
+
                 com.Parameters.AddWithValue("@msv", msv);
                 com.Parameters.AddWithValue("@tenhb", tenhb);
                 com.Parameters.AddWithValue("@sotien", sotien);
@@ -171,16 +188,16 @@ namespace Project_CSharp.Forms.Anh
 
         private void Xoa_Click(object sender, EventArgs e)
         {
-            string mahb = txtmahb.Text.Trim();
+            string masv = cbmasv.Text.Trim();
 
             try
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "DELETE FROM hocbong WHERE idhocbong = @mhb";
+                string sql = "DELETE FROM hocbong WHERE idsinhvien = @msv";
                 SqlCommand com = new SqlCommand(sql, con);
-                com.Parameters.AddWithValue("@mhb", mahb);
+                com.Parameters.AddWithValue("@msv", masv);
 
                 int rows = com.ExecuteNonQuery();
                 if (rows > 0)
@@ -205,19 +222,31 @@ namespace Project_CSharp.Forms.Anh
 
         private void Timkiem_Click(object sender, EventArgs e)
         {
-            string mahb = searchmhb.Text.Trim();
-            string msv = searchmasv.SelectedValue.ToString();
-            string tenhb = searchtenhb.Text.Trim();
+            string sotien = searchsotien.Text != null ? searchsotien.Text.Trim() : "";
+            string msv = searchmasv.SelectedValue != null ? searchmasv.SelectedValue.ToString() : "";
+            string tenhb = searchtenhb.Text != null ? searchtenhb.Text.Trim() : "";
 
             try
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "SELECT * FROM hocbong WHERE idhocbong LIKE @mahb AND idsinhvien LIKE @msv AND tenhocbong LIKE @tenhb";
+                string sql = "SELECT * FROM hocbong WHERE 1=1";
+                if (sotien != null && sotien != "")
+                {
+                    sql += "AND sotien = @sotien";
+                }
+                if (msv != null && msv != "")
+                {
+                    sql += "AND idsinhvien = @msv";
+                }
+                if (tenhb != null && tenhb != "")
+                {
+                    sql += "AND tenhocbong LIKE @tenhb";
+                }
                 SqlCommand cmd = new SqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@mahb", "%" + mahb + "%");
-                cmd.Parameters.AddWithValue("@msv", "%" + msv + "%");
+                cmd.Parameters.AddWithValue("@sotien", sotien);
+                cmd.Parameters.AddWithValue("@msv", msv);
                 cmd.Parameters.AddWithValue("@tenhb", "%" + tenhb + "%");
 
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -244,7 +273,7 @@ namespace Project_CSharp.Forms.Anh
         {
             if (e.RowIndex >= 0 && e.RowIndex < dataGridView1.Rows.Count)
             {
-                txtmahb.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+
                 cbmasv.SelectedValue = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
                 txttenhb.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 txtsotien.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
@@ -350,7 +379,6 @@ namespace Project_CSharp.Forms.Anh
 
         private void Xuat_Click(object sender, EventArgs e)
         {
-            string mahb = txtmahb.Text.Trim();
             string msv = cbmasv.SelectedValue.ToString();
             string tenhb = txttenhb.Text.Trim();
             string sotien = txtsotien.Text.Trim();
@@ -408,12 +436,12 @@ namespace Project_CSharp.Forms.Anh
 
 
                         // Đưa dữ liệu vào DB
-                        ThemmoiKyLuat(
-                            GetCellString(wsheet.Cells[i, 1].Value), // Mã kỷ luật
-                            GetCellString(wsheet.Cells[i, 2].Value), // Ma sv
-                            GetCellString(wsheet.Cells[i, 3].Value), // Vi phạm
-                            GetCellString(wsheet.Cells[i, 4].Value),  // Hình thức
-                            ngcap                             // Ngày  (DateTime)                                  
+                        Themmoihocbong(
+                            GetCellString(wsheet.Cells[i, 1].Value),
+                            GetCellString(wsheet.Cells[i, 2].Value),
+                            GetCellString(wsheet.Cells[i, 3].Value),
+
+                            ngcap
                         );
 
                         i++; // Chuyển sang dòng tiếp theo
@@ -438,15 +466,19 @@ namespace Project_CSharp.Forms.Anh
                 GC.WaitForPendingFinalizers();
             }
         }
-        private void ThemmoiKyLuat(dynamic mahb, dynamic msv, dynamic tenhb, dynamic sotien, DateTime ngcap)
+        private void Themmoihocbong(dynamic msv, dynamic tenhb, dynamic sotien, DateTime ngcap)
         {
-            if (checktrungmahb(mahb))
+            if (checktrungmasv(msv))
             {
                 MessageBox.Show("Trùng mã học bổng.");
-                txtmahb.Focus();
+                cbmasv.Focus();
                 return;
             }
-
+            if (!IsSoTienHopLe(sotien, out decimal soTienDecimal))
+            {
+                MessageBox.Show($"Dòng có mã học bổng {msv}: Số tiền không hợp lệ.");
+                return;
+            }
             try
             {
                 if (con.State == ConnectionState.Closed)

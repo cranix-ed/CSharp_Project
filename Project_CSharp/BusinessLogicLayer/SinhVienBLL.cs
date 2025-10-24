@@ -3,6 +3,7 @@ using Project_CSharp.Helpers;
 using Project_CSharp.Models;
 using System;
 using System.Data;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace Project_CSharp.BusinessLogicLayer
@@ -61,22 +62,58 @@ namespace Project_CSharp.BusinessLogicLayer
         public void ImportFromExcel(string filePath)
         {
             DataTable dt = ExcelHelper.ReadExcel(filePath);
+
+            string[] dateFormats = { "dd/MM/yyyy", "MM/dd/yyyy", "yyyy-MM-dd", "dd-MM-yyyy", "M/d/yyyy" };
             foreach (DataRow row in dt.Rows)
             {
-                SinhVien sv = new SinhVien
+                try
                 {
-                    HoTen = row["Họ tên"].ToString(),
-                    NgaySinh = Convert.ToDateTime(row["Ngày sinh"]),
-                    GioiTinh = row["Giới tính"].ToString(),
-                    DiaChi = row["Địa chỉ"].ToString(),
-                    SoDienThoai = row["Điện thoại"].ToString(),
-                    Email = row["Email"].ToString(),
-                    IdKhoaHoc = Convert.ToInt32(row["Khóa học"]),
-                    IdKhoa = Convert.ToInt32(row["Khoa"]),
-                    IdNganh = Convert.ToInt32(row["Ngành"]),
-                    NgayNhapHoc = Convert.ToDateTime(row["Ngày Nhập Học"])
-                };
-                sinhVienDAL.InsertSinhVien(sv);
+                    DateTime ngaySinh, ngayNhapHoc;
+
+                    // Xử lý ngày sinh an toàn
+                    if (!DateTime.TryParseExact(
+                            row["Ngày sinh"].ToString().Trim(),
+                            dateFormats,
+                            CultureInfo.InvariantCulture,
+                            DateTimeStyles.None,
+                            out ngaySinh))
+                    {
+                        Console.WriteLine($"Lỗi định dạng Ngày sinh ở dòng: {row["Họ tên"]}");
+                        continue; // Bỏ qua dòng lỗi
+                    }
+
+                    // Xử lý ngày nhập học an toàn
+                    if (!DateTime.TryParseExact(
+                            row["Ngày Nhập Học"].ToString().Trim(),
+                            dateFormats,
+                            CultureInfo.InvariantCulture,
+                            DateTimeStyles.None,
+                            out ngayNhapHoc))
+                    {
+                        Console.WriteLine($"Lỗi định dạng Ngày Nhập Học ở dòng: {row["Họ tên"]}");
+                        continue;
+                    }
+
+                    SinhVien sv = new SinhVien
+                    {
+                        HoTen = row["Họ tên"].ToString(),
+                        NgaySinh = ngaySinh,
+                        GioiTinh = row["Giới tính"].ToString(),
+                        DiaChi = row["Địa chỉ"].ToString(),
+                        SoDienThoai = row["Điện thoại"].ToString(),
+                        Email = row["Email"].ToString(),
+                        IdKhoaHoc = Convert.ToInt32(row["Khóa học"]),
+                        IdKhoa = Convert.ToInt32(row["Khoa"]),
+                        IdNganh = Convert.ToInt32(row["Ngành"]),
+                        NgayNhapHoc = ngayNhapHoc
+                    };
+
+                    sinhVienDAL.InsertSinhVien(sv);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Lỗi khi import sinh viên: {ex.Message}");
+                }
             }
         }
 

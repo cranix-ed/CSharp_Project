@@ -39,6 +39,7 @@ namespace Project_CSharp.Forms.Ngoc
             return Regex.IsMatch(dt, @"^(0[2-9]\d{8,9})$");
 
         }
+        
         private void load_Khoa()
         {
             // Kiểm tra kết nối trước khi mở
@@ -265,6 +266,13 @@ namespace Project_CSharp.Forms.Ngoc
                 txtsdt.Focus();
                 return;
             }
+
+            //if (!Kiemtranhotuoi(ngs))
+            //{
+            //    MessageBox.Show("Nhỏ hơn 18 tuổi");
+            //    ngs.GetDateTimeFormats();
+            //    return;
+            //}
             cmd.ExecuteNonQuery();
             cmd.Dispose();
             con.Close();

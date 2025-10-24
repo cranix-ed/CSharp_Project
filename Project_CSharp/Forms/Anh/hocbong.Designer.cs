@@ -55,7 +55,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Xuat = new System.Windows.Forms.Button();
             this.Timkiem = new System.Windows.Forms.Button();
-            this.searchmhb = new System.Windows.Forms.TextBox();
+            this.searchsotien = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.nhapexcel = new System.Windows.Forms.Button();
@@ -301,7 +301,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.Xuat);
             this.panel1.Controls.Add(this.Timkiem);
-            this.panel1.Controls.Add(this.searchmhb);
+            this.panel1.Controls.Add(this.searchsotien);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-4, 10);
@@ -362,13 +362,13 @@
             this.Timkiem.UseVisualStyleBackColor = true;
             this.Timkiem.Click += new System.EventHandler(this.Timkiem_Click);
             // 
-            // searchmhb
+            // searchsotien
             // 
-            this.searchmhb.Location = new System.Drawing.Point(150, 22);
-            this.searchmhb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.searchmhb.Name = "searchmhb";
-            this.searchmhb.Size = new System.Drawing.Size(276, 22);
-            this.searchmhb.TabIndex = 4;
+            this.searchsotien.Location = new System.Drawing.Point(150, 22);
+            this.searchsotien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.searchsotien.Name = "searchsotien";
+            this.searchsotien.Size = new System.Drawing.Size(276, 22);
+            this.searchsotien.TabIndex = 4;
             // 
             // label2
             // 
@@ -389,9 +389,9 @@
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label1.Location = new System.Drawing.Point(47, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 17);
+            this.label1.Size = new System.Drawing.Size(59, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã học bổng";
+            this.label1.Text = "Số tiền";
             // 
             // nhapexcel
             // 
@@ -456,7 +456,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Xuat;
         private System.Windows.Forms.Button Timkiem;
-        private System.Windows.Forms.TextBox searchmhb;
+        private System.Windows.Forms.TextBox searchsotien;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox searchtenhb;

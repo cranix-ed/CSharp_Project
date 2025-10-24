@@ -281,7 +281,7 @@
             this.cmbSearchGioiTinh.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cmbSearchGioiTinh.Location = new System.Drawing.Point(130, 234);
+            this.cmbSearchGioiTinh.Location = new System.Drawing.Point(147, 234);
             this.cmbSearchGioiTinh.Name = "cmbSearchGioiTinh";
             this.cmbSearchGioiTinh.Size = new System.Drawing.Size(199, 36);
             this.cmbSearchGioiTinh.TabIndex = 11;
@@ -410,7 +410,7 @@
             this.txtSearchHoTen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearchHoTen.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSearchHoTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchHoTen.Location = new System.Drawing.Point(130, 149);
+            this.txtSearchHoTen.Location = new System.Drawing.Point(147, 149);
             this.txtSearchHoTen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearchHoTen.Name = "txtSearchHoTen";
             this.txtSearchHoTen.PlaceholderText = "";
@@ -425,7 +425,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(12, 68);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(93, 26);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(103, 26);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "Mã sinh viên";
             // 
@@ -442,7 +442,7 @@
             this.txtSearchMaSinhVien.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearchMaSinhVien.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSearchMaSinhVien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchMaSinhVien.Location = new System.Drawing.Point(130, 62);
+            this.txtSearchMaSinhVien.Location = new System.Drawing.Point(147, 62);
             this.txtSearchMaSinhVien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearchMaSinhVien.Name = "txtSearchMaSinhVien";
             this.txtSearchMaSinhVien.PlaceholderText = "";

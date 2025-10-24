@@ -21,7 +21,7 @@ namespace Project_CSharp.Forms.Anh
             if (con.State == ConnectionState.Closed)
                 con.Open();
 
-            String sql = "select idsinhvien, hoten from sinhvien"; // chọn rõ ràng
+            String sql = "select idsinhvien, masinhvien from sinhvien"; // chọn rõ ràng
             SqlCommand cmd = new SqlCommand(sql, con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable tb = new DataTable();
@@ -31,18 +31,19 @@ namespace Project_CSharp.Forms.Anh
 
             // Tạo dòng trống để làm dòng "Chọn sinh viên"
             DataRow r = tb.NewRow();
-            r["idsinhvien"] = 0; // hoặc DBNull.Value
-            r["hoten"] = "<-- Chọn id -->";
+            r["idsinhvien"] = DBNull.Value; // hoặc DBNull.Value
+            r["masinhvien"] = "<-- Chọn id -->";
             tb.Rows.InsertAt(r, 0);
 
             // Gán dữ liệu cho ComboBox
             cbmasv.DataSource = tb;
             cbmasv.ValueMember = "idsinhvien";
-            cbmasv.DisplayMember = "hoten";
+            cbmasv.DisplayMember = "idsinhvien";
+
 
             searchmasv.DataSource = tb;
             searchmasv.ValueMember = "idsinhvien";
-            searchmasv.DisplayMember = "hoten";
+            searchmasv.DisplayMember = "idsinhvien";
         }
         private void loadkyluat()
         {
@@ -64,11 +65,11 @@ namespace Project_CSharp.Forms.Anh
             dataGridView1.Refresh();
 
         }
-        public bool checktrungmakl(string makl)
+        public bool checktrungmasv(string masv)
         {
             if (con.State == ConnectionState.Closed)
                 con.Open();
-            String sql = "Select count (*) from kyluat Where idkyluat= '" + makl + "'";
+            String sql = "Select count (*) from kyluat Where idsinhvien= '" + masv + "'";
             SqlCommand cmd = new SqlCommand(sql, con);
             int kq = (int)cmd.ExecuteScalar();
             if (kq > 0)
@@ -78,16 +79,15 @@ namespace Project_CSharp.Forms.Anh
         }
         private void Luu_Click(object sender, EventArgs e)
         {
-            string makl = txtmakl.Text.Trim();
             string msv = cbmasv.SelectedValue.ToString();
             string vipham = txtvipham.Text.Trim();
             string hinhthuc = txthinhthuc.Text.Trim();
             DateTime ngay = txtngay.Value;
 
-            if (checktrungmakl(makl))
+            if (checktrungmasv(msv))
             {
-                MessageBox.Show("Trùng mã kỷ luật.");
-                txtmakl.Focus();
+                MessageBox.Show("Trùng mã sinhvien.");
+                cbmasv.Focus();
                 return;
             }
 
@@ -96,9 +96,9 @@ namespace Project_CSharp.Forms.Anh
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "INSERT INTO kyluat VALUES (@mkl, @msv, @vipham, @hinhthuc, @ngay)";
+                string sql = "INSERT INTO kyluat VALUES ( @msv, @vipham, @hinhthuc, @ngay)";
                 SqlCommand com = new SqlCommand(sql, con);
-                
+
                 com.Parameters.AddWithValue("@msv", msv);
                 com.Parameters.AddWithValue("@vipham", vipham);
                 com.Parameters.AddWithValue("@hinhthuc", hinhthuc);
@@ -127,7 +127,6 @@ namespace Project_CSharp.Forms.Anh
 
         private void Sua_Click(object sender, EventArgs e)
         {
-            string makl = txtmakl.Text.Trim();
             string msv = cbmasv.SelectedValue.ToString();
             string vipham = txtvipham.Text.Trim();
             string hinhthuc = txthinhthuc.Text.Trim();
@@ -138,9 +137,9 @@ namespace Project_CSharp.Forms.Anh
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "UPDATE kyluat SET idsinhvien = @msv, vipham = @vipham, hinhthuc = @hinhthuc, ngay = @ngay WHERE idkyluat = @mkl";
+                string sql = "UPDATE kyluat SET  vipham = @vipham, hinhthuc = @hinhthuc, ngay = @ngay WHERE idsinhvien = @msv";
                 SqlCommand com = new SqlCommand(sql, con);
-                com.Parameters.AddWithValue("@mkl", makl);
+
                 com.Parameters.AddWithValue("@msv", msv);
                 com.Parameters.AddWithValue("@vipham", vipham);
                 com.Parameters.AddWithValue("@hinhthuc", hinhthuc);
@@ -169,16 +168,16 @@ namespace Project_CSharp.Forms.Anh
 
         private void Xoa_Click(object sender, EventArgs e)
         {
-            string makl = txtmakl.Text.Trim();
+            string masv = cbmasv.Text.Trim();
 
             try
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "DELETE FROM kyluat WHERE kyluat = @mkl";
+                string sql = "DELETE FROM kyluat WHERE idsinhvien = @msv";
                 SqlCommand com = new SqlCommand(sql, con);
-                com.Parameters.AddWithValue("@mkl", makl);
+                com.Parameters.AddWithValue("@msv", masv);
 
                 int rows = com.ExecuteNonQuery();
                 if (rows > 0)
@@ -203,19 +202,31 @@ namespace Project_CSharp.Forms.Anh
 
         private void Timkiem_Click(object sender, EventArgs e)
         {
-            string makl = searchmakl.Text.Trim();
-            string msv = searchmasv.SelectedValue.ToString();
-            string vipham = searchvipham.Text.Trim();
+            string kl = searchkl.Text != null ? searchkl.Text.Trim() : "";
+            string msv = searchmasv.SelectedValue != null ? searchmasv.SelectedValue.ToString() : "";
+            string vipham = searchvipham.Text != null ? searchvipham.Text.Trim() : "";
 
             try
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                string sql = "SELECT * FROM kyluat WHERE idkyluat LIKE @mkl AND idsinhvien LIKE @msv AND vipham LIKE @vipham";
+                string sql = "SELECT * FROM kyluat WHERE 1=1";
+                if (kl != null && kl != "")
+                {
+                    sql += "AND hinhthucxuly LIKE @kl";
+                }
+                if (msv != null && msv != "")
+                {
+                    sql += "AND idsinhvien = @msv";
+                }
+                if (vipham != null && vipham != "")
+                {
+                    sql += "AND vipham LIKE @vipham";
+                }
                 SqlCommand cmd = new SqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@mkl", "%" + makl + "%");
-                cmd.Parameters.AddWithValue("@msv", "%" + msv + "%");
+                cmd.Parameters.AddWithValue("@kl", "%" + kl + "%");
+                cmd.Parameters.AddWithValue("@msv", msv);
                 cmd.Parameters.AddWithValue("@vipham", "%" + vipham + "%");
 
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -237,7 +248,7 @@ namespace Project_CSharp.Forms.Anh
         {
             if (e.RowIndex >= 0 && e.RowIndex < dataGridView1.Rows.Count)
             {
-                txtmakl.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+
                 cbmasv.SelectedValue = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
                 txtvipham.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 txthinhthuc.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
@@ -263,7 +274,7 @@ namespace Project_CSharp.Forms.Anh
             oSheet = (Microsoft.Office.Interop.Excel.Worksheet)oSheets.get_Item(1);
             oSheet.Name = sheetname;
             // Tạo phần đầu nếu muốn
-            Microsoft.Office.Interop.Excel.Range head = oSheet.get_Range("A1", "G1");
+            Microsoft.Office.Interop.Excel.Range head = oSheet.get_Range("A1", "E1");
             head.MergeCells = true;
             head.Value2 = "DANH SACH KY LUAT";
             head.Font.Bold = true;
@@ -287,13 +298,13 @@ namespace Project_CSharp.Forms.Anh
             Microsoft.Office.Interop.Excel.Range cl5 = oSheet.get_Range("E3", "E3");
             cl5.Value2 = "NGAY";
             cl5.ColumnWidth = 25.0;
-            
 
 
 
 
-            
-            Microsoft.Office.Interop.Excel.Range rowHead = oSheet.get_Range("A3", "G3");
+
+
+            Microsoft.Office.Interop.Excel.Range rowHead = oSheet.get_Range("A3", "E3");
             rowHead.Font.Bold = true;
             // Kẻ viền
             rowHead.Borders.LineStyle = Microsoft.Office.Interop.Excel.Constants.xlSolid;
@@ -343,7 +354,6 @@ namespace Project_CSharp.Forms.Anh
 
         private void Xuat_Click(object sender, EventArgs e)
         {
-            string makl = searchmakl.Text.Trim();
             string msv = cbmasv.SelectedValue.ToString();
             string vipham = txtvipham.Text.Trim();
             string hinhthuc = txthinhthuc.Text.Trim();
@@ -352,7 +362,7 @@ namespace Project_CSharp.Forms.Anh
             /*string sql = "SELECT * FROM kyluat WHERE idkyluat LIKE '%" + makl + "%' AND idsinhvien LIKE N'%" + msv + "%' " +
                 "AND vipham LIKE '%" + vipham + "%' AND ngay LIKE '%" + ngay + "%'";*/
             string sql = "SELECT * FROM kyluat";
-            
+
             SqlCommand cmd = new SqlCommand(sql, con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.SelectCommand = cmd;
@@ -401,15 +411,15 @@ namespace Project_CSharp.Forms.Anh
                             DateTime.TryParse(cellValue.ToString(), out ngay);
                         }
 
-                        
+
 
                         // Đưa dữ liệu vào DB
                         ThemmoiKyLuat(
                             GetCellString(wsheet.Cells[i, 1].Value), // Mã kỷ luật
                             GetCellString(wsheet.Cells[i, 2].Value), // Họ và tên
                             GetCellString(wsheet.Cells[i, 3].Value), // Vi phạm
-                            GetCellString(wsheet.Cells[i, 4].Value),  // Hình thức
-                            ngay                             // Ngày sinh (DateTime)                                  
+
+                            ngay
                         );
 
                         i++; // Chuyển sang dòng tiếp theo
@@ -435,12 +445,12 @@ namespace Project_CSharp.Forms.Anh
             }
         }
 
-        private void ThemmoiKyLuat(dynamic makl, dynamic msv, dynamic vipham, dynamic hinhthuc, DateTime ngay)
+        private void ThemmoiKyLuat(dynamic msv, dynamic vipham, dynamic hinhthuc, DateTime ngay)
         {
-            if (checktrungmakl(makl))
+            if (checktrungmasv(msv))
             {
                 MessageBox.Show("Trùng mã kỷ luật.");
-                txtmakl.Focus();
+                cbmasv.Focus();
                 return;
             }
 
@@ -508,5 +518,10 @@ namespace Project_CSharp.Forms.Anh
             }
         
     }
-}
+
+        private void searchmasv_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

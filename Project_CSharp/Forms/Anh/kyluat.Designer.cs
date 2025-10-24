@@ -54,11 +54,11 @@
             this.Xuat = new System.Windows.Forms.Button();
             this.Timkiem = new System.Windows.Forms.Button();
             this.searchvipham = new System.Windows.Forms.TextBox();
-            this.searchmakl = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.nhapexcel = new System.Windows.Forms.Button();
+            this.searchkl = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -277,14 +277,14 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.searchkl);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.searchmasv);
             this.panel1.Controls.Add(this.Xuat);
             this.panel1.Controls.Add(this.Timkiem);
             this.panel1.Controls.Add(this.searchvipham);
-            this.panel1.Controls.Add(this.searchmakl);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(11, 18);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -294,11 +294,12 @@
             // searchmasv
             // 
             this.searchmasv.FormattingEnabled = true;
-            this.searchmasv.Location = new System.Drawing.Point(127, 62);
+            this.searchmasv.Location = new System.Drawing.Point(151, 23);
             this.searchmasv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.searchmasv.Name = "searchmasv";
             this.searchmasv.Size = new System.Drawing.Size(198, 24);
             this.searchmasv.TabIndex = 8;
+            this.searchmasv.SelectedIndexChanged += new System.EventHandler(this.searchmasv_SelectedIndexChanged);
             // 
             // Xuat
             // 
@@ -324,24 +325,16 @@
             // 
             // searchvipham
             // 
-            this.searchvipham.Location = new System.Drawing.Point(589, 42);
+            this.searchvipham.Location = new System.Drawing.Point(592, 31);
             this.searchvipham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.searchvipham.Name = "searchvipham";
             this.searchvipham.Size = new System.Drawing.Size(184, 22);
             this.searchvipham.TabIndex = 5;
             // 
-            // searchmakl
-            // 
-            this.searchmakl.Location = new System.Drawing.Point(127, 18);
-            this.searchmakl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.searchmakl.Name = "searchmakl";
-            this.searchmakl.Size = new System.Drawing.Size(208, 22);
-            this.searchmakl.TabIndex = 3;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(477, 42);
+            this.label3.Location = new System.Drawing.Point(480, 31);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 2;
@@ -350,20 +343,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 70);
+            this.label2.Location = new System.Drawing.Point(41, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã sinh viên";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã kỷ luật";
             // 
             // nhapexcel
             // 
@@ -376,6 +360,23 @@
             this.nhapexcel.Text = "Nhập Excel";
             this.nhapexcel.UseVisualStyleBackColor = true;
             this.nhapexcel.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // searchkl
+            // 
+            this.searchkl.Location = new System.Drawing.Point(151, 71);
+            this.searchkl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.searchkl.Name = "searchkl";
+            this.searchkl.Size = new System.Drawing.Size(198, 22);
+            this.searchkl.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(39, 71);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Kỷ luật";
             // 
             // kyluat
             // 
@@ -424,10 +425,8 @@
         private System.Windows.Forms.Button Xuat;
         private System.Windows.Forms.Button Timkiem;
         private System.Windows.Forms.TextBox searchvipham;
-        private System.Windows.Forms.TextBox searchmakl;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn idkyluat;
         private System.Windows.Forms.DataGridViewTextBoxColumn idsinhvien;
         private System.Windows.Forms.DataGridViewTextBoxColumn vipham;
@@ -436,5 +435,7 @@
         private System.Windows.Forms.ComboBox cbmasv;
         private System.Windows.Forms.ComboBox searchmasv;
         private System.Windows.Forms.Button nhapexcel;
+        private System.Windows.Forms.TextBox searchkl;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_CSharp.Models;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace Project_CSharp
         {
             InitializeComponent();
 
+            this.AcceptButton = btndangnhap;
         }
 
         private void Dangnhap_Load(object sender, EventArgs e)
@@ -50,7 +52,8 @@ namespace Project_CSharp
 
                 // Ẩn form đăng nhập, hiện giao diện chính
                 this.Hide();
-                FormMain main = new FormMain (); // hoặc form chính khác nếu có
+                User currentUser = new User { Username = tenDangNhap };
+                FormMain main = new FormMain (currentUser); // hoặc form chính khác nếu có
                 main.Show();
             }
             else
@@ -58,6 +61,11 @@ namespace Project_CSharp
                 con.Close();
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!");
             }
+        }
+
+        private void btndangnhap_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
         }
     }
 }

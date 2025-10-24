@@ -8,6 +8,7 @@ using Project_CSharp.Forms.Vinh;
 using System.Windows.Forms.DataVisualization.Charting;
 using Project_CSharp.BusinessLogicLayer;
 using Project_CSharp.Forms.Tung;
+using Project_CSharp.Models;
 
 namespace Project_CSharp
 {
@@ -25,10 +26,11 @@ namespace Project_CSharp
         private int sidebarMinWidth = 45; // Chiều rộng tối thiểu khi thu gọn
         private int sidebarStep = 10; // Bước tăng/giảm
 
-        
-        public FormMain()
+        private User _currentUser;
+        public FormMain(User user)
         {
             InitializeComponent();
+            _currentUser = user;
         }
 
         protected override CreateParams CreateParams
@@ -252,7 +254,7 @@ namespace Project_CSharp
         {
             OpenChildForm(new Phanquyen());
             CloseCurrentDropdown();
-            labelTitleHeader.Text = "Quản lý phân quyền";
+            labelTitleHeader.Text = "Quản lý tài khoản";
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -282,13 +284,17 @@ namespace Project_CSharp
         private void FormMain_Load(object sender, EventArgs e)
         {
             OpenChildForm(new FormThongKe());
+            if (_currentUser.Username != "admin")
+            {
+                guna2Button1.Visible = false; // Ẩn nút
+            }
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormThongKe());
             CloseCurrentDropdown();
-            labelTitleHeader.Text = "Quản lý hồ sơ sinh viên";
+            labelTitleHeader.Text = "Quản lý sinh viên";
         }
 
         private void guna2Button15_Click(object sender, EventArgs e)
@@ -310,6 +316,32 @@ namespace Project_CSharp
             OpenChildForm(new hocky());
             CloseCurrentDropdown();
             labelTitleHeader.Text = "Quản lý học kỳ";
+        }
+
+        private void PanelControl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?",
+                                                  "Đăng xuất",
+                                                  MessageBoxButtons.YesNo,
+                                                  MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                // Đóng form chính
+                this.Hide();
+
+                // Mở lại form đăng nhập
+                Dangnhap loginForm = new Dangnhap();
+                loginForm.Show();
+
+                // Giải phóng tài nguyên form chính
+                this.Close();
+            }
         }
     }
 }

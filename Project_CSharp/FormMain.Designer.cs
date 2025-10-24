@@ -73,6 +73,8 @@
             this.dropdownTimer = new System.Windows.Forms.Timer(this.components);
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
             this.PanelControl.SuspendLayout();
             this.PanelMain.SuspendLayout();
             this.PanelHeader.SuspendLayout();
@@ -105,6 +107,7 @@
             this.PanelControl.Name = "PanelControl";
             this.PanelControl.Size = new System.Drawing.Size(1282, 30);
             this.PanelControl.TabIndex = 0;
+            this.PanelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelControl_Paint);
             // 
             // ImabtnSidebar
             // 
@@ -217,9 +220,9 @@
             this.labelTitleHeader.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitleHeader.Location = new System.Drawing.Point(381, 2);
             this.labelTitleHeader.Name = "labelTitleHeader";
-            this.labelTitleHeader.Size = new System.Drawing.Size(251, 33);
+            this.labelTitleHeader.Size = new System.Drawing.Size(187, 33);
             this.labelTitleHeader.TabIndex = 0;
-            this.labelTitleHeader.Text = "Quản lý hồ sơ sinh viên";
+            this.labelTitleHeader.Text = "Quản lý sinh viên";
             this.labelTitleHeader.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PanelContent
@@ -251,6 +254,8 @@
             this.flowLayoutPanel1.Controls.Add(this.panelDropDownVinh);
             this.flowLayoutPanel1.Controls.Add(this.panelDropDownAnh);
             this.flowLayoutPanel1.Controls.Add(this.panelDropDownTung);
+            this.flowLayoutPanel1.Controls.Add(this.guna2Panel1);
+            this.flowLayoutPanel1.Controls.Add(this.btnLogout);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -394,7 +399,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(240, 45);
             this.guna2Button1.TabIndex = 3;
-            this.guna2Button1.Text = "Phân quyền tài khoản";
+            this.guna2Button1.Text = "Quản lý tài khoản";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button4
@@ -466,6 +471,7 @@
             this.panelDropDownVinh.Name = "panelDropDownVinh";
             this.panelDropDownVinh.Size = new System.Drawing.Size(240, 45);
             this.panelDropDownVinh.TabIndex = 3;
+            this.panelDropDownVinh.Visible = false;
             // 
             // btnOption
             // 
@@ -641,6 +647,7 @@
             this.panelDropDownTung.Name = "panelDropDownTung";
             this.panelDropDownTung.Size = new System.Drawing.Size(240, 45);
             this.panelDropDownTung.TabIndex = 8;
+            this.panelDropDownTung.Visible = false;
             // 
             // guna2Button13
             // 
@@ -732,6 +739,30 @@
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Location = new System.Drawing.Point(249, 3);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(234, 390);
+            this.guna2Panel1.TabIndex = 9;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogout.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnLogout.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.Location = new System.Drawing.Point(249, 399);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(234, 48);
+            this.btnLogout.TabIndex = 10;
+            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -807,6 +838,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button15;
         private Guna.UI2.WinForms.Guna2Button guna2Button16;
         private Guna.UI2.WinForms.Guna2ImageButton btnHome;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Button btnLogout;
     }
 }
 

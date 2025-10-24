@@ -33,10 +33,8 @@
             this.Xuat = new System.Windows.Forms.Button();
             this.Timkiem = new System.Windows.Forms.Button();
             this.searchvande = new System.Windows.Forms.TextBox();
-            this.searchmahs = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cbmasv = new System.Windows.Forms.ComboBox();
             this.txtngay = new System.Windows.Forms.DateTimePicker();
@@ -59,6 +57,8 @@
             this.Xoa = new System.Windows.Forms.Button();
             this.Thoat = new System.Windows.Forms.Button();
             this.nhapexcel = new System.Windows.Forms.Button();
+            this.searchdieutri = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -68,14 +68,14 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.searchdieutri);
             this.panel1.Controls.Add(this.searchmsv);
             this.panel1.Controls.Add(this.Xuat);
             this.panel1.Controls.Add(this.Timkiem);
             this.panel1.Controls.Add(this.searchvande);
-            this.panel1.Controls.Add(this.searchmahs);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(11, 10);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -85,7 +85,7 @@
             // searchmsv
             // 
             this.searchmsv.FormattingEnabled = true;
-            this.searchmsv.Location = new System.Drawing.Point(132, 64);
+            this.searchmsv.Location = new System.Drawing.Point(142, 20);
             this.searchmsv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.searchmsv.Name = "searchmsv";
             this.searchmsv.Size = new System.Drawing.Size(203, 24);
@@ -100,6 +100,7 @@
             this.Xuat.TabIndex = 7;
             this.Xuat.Text = "Xuat Excel";
             this.Xuat.UseVisualStyleBackColor = true;
+            this.Xuat.Click += new System.EventHandler(this.Xuat_Click);
             // 
             // Timkiem
             // 
@@ -114,24 +115,16 @@
             // 
             // searchvande
             // 
-            this.searchvande.Location = new System.Drawing.Point(589, 42);
+            this.searchvande.Location = new System.Drawing.Point(580, 27);
             this.searchvande.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.searchvande.Name = "searchvande";
             this.searchvande.Size = new System.Drawing.Size(184, 22);
             this.searchvande.TabIndex = 5;
             // 
-            // searchmahs
-            // 
-            this.searchmahs.Location = new System.Drawing.Point(127, 18);
-            this.searchmahs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.searchmahs.Name = "searchmahs";
-            this.searchmahs.Size = new System.Drawing.Size(208, 22);
-            this.searchmahs.TabIndex = 3;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(477, 42);
+            this.label3.Location = new System.Drawing.Point(468, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 16);
             this.label3.TabIndex = 2;
@@ -140,20 +133,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 70);
+            this.label2.Location = new System.Drawing.Point(36, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Ma sinh vien";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Ma ho so";
             // 
             // panel2
             // 
@@ -379,6 +363,23 @@
             this.nhapexcel.TabIndex = 7;
             this.nhapexcel.Text = "Nhập Excel";
             this.nhapexcel.UseVisualStyleBackColor = true;
+            this.nhapexcel.Click += new System.EventHandler(this.nhapexcel_Click);
+            // 
+            // searchdieutri
+            // 
+            this.searchdieutri.Location = new System.Drawing.Point(142, 70);
+            this.searchdieutri.Name = "searchdieutri";
+            this.searchdieutri.Size = new System.Drawing.Size(203, 22);
+            this.searchdieutri.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(36, 70);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Điều trị";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // suckhoe
             // 
@@ -413,7 +414,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -422,7 +422,6 @@
         private System.Windows.Forms.Button Xuat;
         private System.Windows.Forms.Button Timkiem;
         private System.Windows.Forms.TextBox searchvande;
-        private System.Windows.Forms.TextBox searchmahs;
         private System.Windows.Forms.DateTimePicker txtngay;
         private System.Windows.Forms.TextBox txtdieutri;
         private System.Windows.Forms.TextBox txtvande;
@@ -439,5 +438,7 @@
         private System.Windows.Forms.ComboBox searchmsv;
         private System.Windows.Forms.ComboBox cbmasv;
         private System.Windows.Forms.Button nhapexcel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox searchdieutri;
     }
 }
